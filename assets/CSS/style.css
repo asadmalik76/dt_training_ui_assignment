@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Manrope:wght@200;300;500;600;700;800&family=Noto+Sans+Georgian:wght@100;200;300;400;500;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&family=Sora:wght@100;200;300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #F8F9FA;
+}
+
+.banner {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85), black), url("../images/pahar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), black);
+}
+
+.customNav {
+  background-color: transparent;
+}
+
+.customNav ul li {
+  padding: .5rem 1rem;
+}
+
+.customNav ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.customNav ul li a:hover {
+  color: #fff;
+}
+
+.customNav .navbar-brand {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.customNav .navbar-brand:hover {
+  color: #fff;
+}
+
+.greyScale {
+  margin-top: 7rem;
+}
+
+.headingBanner {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+@media all and (max-width: 768px) {
+  .headingBanner {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media all and (max-width: 511px) {
+  .headingBanner {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+.para {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.para1 {
+  font-size: 1.1rem;
+}
+
+.para1 span {
+  color: #64a19d;
+}
+
+.customBtn {
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #64a19d;
+  padding: 1rem 2.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 6px;
+}
+
+.white {
+  color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+.light {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.medium {
+  font-size: 1rem;
+}
+
+.bootstrap {
+  margin-top: 20rem;
+}
+
+.image {
+  margin-top: 10rem;
+}
+
+.shoreline {
+  margin-top: 13rem;
+}
+
+.fourDiv {
+  background-color: #000;
+  margin-top: 3rem;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(black)), url("../images/nature.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.85), black), url("../images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.customField {
+  border: 0;
+  outline: none !important;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.cards {
+  margin-top: 5rem;
+}
+
+.icon i {
+  font-size: 30px;
+  color: #64a19d;
+}
+
+.contact {
+  margin: 4rem 0;
+}
+
+.footerIcon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #1A1A1A;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.footerIcon i {
+  color: #ddd;
+}
